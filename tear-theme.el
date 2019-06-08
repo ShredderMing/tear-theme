@@ -1,4 +1,4 @@
-(deftheme tear-light
+(deftheme tear
   "light theme for emacs based on tear design")
 (let ((class '((class color) (min-colors 89)))
       (background "#ffffff")
@@ -15,7 +15,7 @@
       (blue "#00acff")
       (purple "#8959a8"))
   (custom-theme-set-faces
-   'tear-light
+   'tear
    `(default ((,class (:foreground ,foreground :background ,background))))
    `(bold ((,class (:weight bold))))
    `(bold-italic ((,class (:slant italic :weight bold))))
@@ -51,4 +51,4 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'tear-light)
+(provide-theme 'tear)
