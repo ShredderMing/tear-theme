@@ -16,7 +16,6 @@
       (purple "#8959a8"))
   (custom-theme-set-faces
    'tear-light
-   'material
    `(default ((,class (:foreground ,foreground :background ,background))))
    `(bold ((,class (:weight bold))))
    `(bold-italic ((,class (:slant italic :weight bold))))
